@@ -1,24 +1,24 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
+ * @link https://github.com/websvcPT/yii2-multiple-input
  * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @license https://github.com/websvcPT/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\renderers;
+namespace websvc\multipleinput\renderers;
 
 use yii\base\InvalidConfigException;
 use yii\db\ActiveRecordInterface;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use unclead\multipleinput\components\BaseColumn;
+use websvc\multipleinput\components\BaseColumn;
 use yii\helpers\UnsetArrayValue;
 
 /**
  * Class DivRenderer is a list renderer which uses divs
  *
- * @package unclead\multipleinput\renderers
+ * @package websvc\multipleinput\renderers
  */
 class DivRenderer extends BaseRenderer
 {

@@ -1,23 +1,23 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
+ * @link https://github.com/websvcPT/yii2-multiple-input
  * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @license https://github.com/websvcPT/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput;
+namespace websvc\multipleinput;
 
 use yii\base\InvalidConfigException;
 use yii\base\Model;
 use yii\base\DynamicModel;
 use yii\db\ActiveRecordInterface;
 use yii\helpers\Html;
-use unclead\multipleinput\components\BaseColumn;
+use websvc\multipleinput\components\BaseColumn;
 
 /**
  * Class MultipleInputColumn
- * @package unclead\multipleinput
+ * @package websvc\multipleinput
  *
  * @property MultipleInput $context
  */

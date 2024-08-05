@@ -1,12 +1,12 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
+ * @link https://github.com/websvcPT/yii2-multiple-input
  * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @license https://github.com/websvcPT/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\components;
+namespace websvc\multipleinput\components;
 
 
 use yii\base\Model;
@@ -16,7 +16,7 @@ use yii\helpers\ArrayHelper;
 /**
  * Class ValuePreparer.
  *
- * @package unclead\multipleinput\components
+ * @package websvc\multipleinput\components
  */
 class ValuePreparer
 {

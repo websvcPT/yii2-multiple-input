@@ -6,7 +6,7 @@
  * Time: 2:14 PM
  */
 
-namespace unclead\multipleinput\tests\unit\data;
+namespace websvc\multipleinput\tests\unit\data;
 
 
 use yii\db\ActiveRecord;

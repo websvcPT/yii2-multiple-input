@@ -1,19 +1,19 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
+ * @link https://github.com/websvcPT/yii2-multiple-input
  * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @license https://github.com/websvcPT/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput;
+namespace websvc\multipleinput;
 
-use unclead\multipleinput\components\BaseColumn;
+use websvc\multipleinput\components\BaseColumn;
 use yii\base\Model;
 
 /**
  * Class TabularColumn
- * @package unclead\multipleinput
+ * @package websvc\multipleinput
  *
  * @property TabularInput $context
  */

@@ -1,22 +1,22 @@
 <?php
 
-namespace unclead\multipleinput\examples\actions;
+namespace websvc\multipleinput\examples\actions;
 
 use Yii;
 use yii\base\Action;
 use yii\bootstrap\ActiveForm;
 use yii\web\Response;
-use unclead\multipleinput\examples\models\ExampleModel;
+use websvc\multipleinput\examples\models\ExampleModel;
 
 /**
  * Class EmbeddedInputAction
- * @package unclead\multipleinput\examples\actions
+ * @package websvc\multipleinput\examples\actions
  */
 class EmbeddedInputAction extends Action
 {
     public function run()
     {
-        Yii::setAlias('@unclead-examples', realpath(__DIR__ . '/../'));
+        Yii::setAlias('@websvc-examples', realpath(__DIR__ . '/../'));
 
         $model = new ExampleModel();
 
@@ -34,6 +34,6 @@ class EmbeddedInputAction extends Action
             }
         }
         
-        return $this->controller->render('@unclead-examples/views/embedded-input.php', ['model' => $model]);
+        return $this->controller->render('@websvc-examples/views/embedded-input.php', ['model' => $model]);
     }
 }

@@ -1,14 +1,14 @@
 <?php
 
-namespace unclead\multipleinput\tests\unit;
+namespace websvc\multipleinput\tests\unit;
 
-use unclead\multipleinput\tests\unit\data\TestModel;
-use unclead\multipleinput\MultipleInput;
-use unclead\multipleinput\MultipleInputColumn;
+use websvc\multipleinput\tests\unit\data\TestModel;
+use websvc\multipleinput\MultipleInput;
+use websvc\multipleinput\MultipleInputColumn;
 
 /**
  * Class MultipleInputTest
- * @package unclead\multipleinput\tests\unit
+ * @package websvc\multipleinput\tests\unit
  */
 class MultipleInputTest extends TestCase
 {

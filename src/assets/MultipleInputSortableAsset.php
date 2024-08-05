@@ -1,23 +1,23 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
+ * @link https://github.com/websvcPT/yii2-multiple-input
  * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @license https://github.com/websvcPT/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\assets;
+namespace websvc\multipleinput\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class MultipleInputAsset
- * @package unclead\multipleinput\assets
+ * @package websvc\multipleinput\assets
  */
 class MultipleInputSortableAsset extends AssetBundle
 {
     public $depends = [
-        'unclead\multipleinput\assets\MultipleInputAsset',
+        'websvc\multipleinput\assets\MultipleInputAsset',
     ];
 
     public function init()

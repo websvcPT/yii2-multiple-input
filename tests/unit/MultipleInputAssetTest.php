@@ -1,11 +1,11 @@
 <?php
 
-namespace unclead\multipleinput\tests\unit;
-use unclead\multipleinput\assets\MultipleInputAsset;
+namespace websvc\multipleinput\tests\unit;
+use websvc\multipleinput\assets\MultipleInputAsset;
 
 /**
  * Class MultipleInputAssetTest
- * @package unclead\multipleinput\tests\unit
+ * @package websvc\multipleinput\tests\unit
  */
 class MultipleInputAssetTest extends TestCase
 {

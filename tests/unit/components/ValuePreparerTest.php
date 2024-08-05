@@ -1,11 +1,11 @@
 <?php
-namespace unclead\multipleinput\tests\unit\components;
+namespace websvc\multipleinput\tests\unit\components;
 
-use unclead\multipleinput\components\ValuePreparer;
-use unclead\multipleinput\tests\unit\data\TestActiveRecord;
-use unclead\multipleinput\tests\unit\data\TestActiveRecordRelated;
-use unclead\multipleinput\tests\unit\data\TestModel;
-use unclead\multipleinput\tests\unit\TestCase;
+use websvc\multipleinput\components\ValuePreparer;
+use websvc\multipleinput\tests\unit\data\TestActiveRecord;
+use websvc\multipleinput\tests\unit\data\TestActiveRecordRelated;
+use websvc\multipleinput\tests\unit\data\TestModel;
+use websvc\multipleinput\tests\unit\TestCase;
 use yii\db\ActiveQuery;
 
 class ValuePreparerTest extends TestCase

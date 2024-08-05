@@ -1,14 +1,16 @@
+# NOTICE
+
+Forked from unclead/yii2-multiple-input (which is an excellent package!) in order to allow changes to work with `yii\bootstrap4\Widget` instead of `yii\bootstrap\Widget` as the original package does not work without the latest.
+
 # Yii2 Multiple input widget.
 Yii2 widget for handle multiple inputs for an attribute of model and tabular input for batch of models.
 
-[![Latest Stable Version](https://poser.pugx.org/unclead/yii2-multiple-input/v/stable)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![Total Downloads](https://poser.pugx.org/unclead/yii2-multiple-input/downloads)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![Daily Downloads](https://poser.pugx.org/unclead/yii2-multiple-input/d/daily)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![Latest Unstable Version](https://poser.pugx.org/unclead/yii2-multiple-input/v/unstable)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![License](https://poser.pugx.org/unclead/yii2-multiple-input/license)](https://packagist.org/packages/unclead/yii2-multiple-input)
+[![Latest Stable Version](https://poser.pugx.org/websvc/yii2-multiple-input/v/stable)](https://packagist.org/packages/websvc/yii2-multiple-input)
+[![Total Downloads](https://poser.pugx.org/websvc/yii2-multiple-input/downloads)](https://packagist.org/packages/websvc/yii2-multiple-input)
+[![Daily Downloads](https://poser.pugx.org/websvc/yii2-multiple-input/d/daily)](https://packagist.org/packages/websvc/yii2-multiple-input)
+[![Latest Unstable Version](https://poser.pugx.org/websvc/yii2-multiple-input/v/unstable)](https://packagist.org/packages/websvc/yii2-multiple-input)
+[![License](https://poser.pugx.org/websvc/yii2-multiple-input/license)](https://packagist.org/packages/websvc/yii2-multiple-input)
 
-## Latest release
-The latest stable version of the extension is v2.27.0 Follow the [instruction](./UPGRADE.md) for upgrading from previous versions
 
 ## Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -16,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require  unclead/yii2-multiple-input "~2.0"
+php composer.phar require  websvc/yii2-multiple-input "~2.0"
 ```
 
 or add
 
 ```
-"unclead/yii2-multiple-input": "~2.0"
+"websvc/yii2-multiple-input": "~2.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -35,7 +37,7 @@ For example you want to have an ability of entering several emails of user on pr
 In this case you can use yii2-multiple-input widget like in the following code
 
 ```php
-use unclead\multipleinput\MultipleInput;
+use websvc\multipleinput\MultipleInput;
 
 ...
 
